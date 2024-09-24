@@ -18,7 +18,7 @@ jobs:
 
       - name: Updated Version File
         id: updated-version-file
-        uses: tj-actions/changed-files@v39
+        uses: tj-actions/changed-files@v45
         with:
           files: |
             internal/version/VERSION
